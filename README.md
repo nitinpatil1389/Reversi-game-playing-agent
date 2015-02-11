@@ -9,7 +9,7 @@ input.txt - describes the current state of the game.
 - your player: X or O
 - cutting off depth
 - current state as follows:
-	+ *: blank cell
+	+ \*: blank cell
 	+ X: Black player
 	+ O: White Player
 
@@ -17,42 +17,42 @@ Example:
 2
 X
 2
-********
-********
-********
-***OX***
-***XO***
-********
-********
-********
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*OX\*\*\*
+\*\*\*XO\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
 
 ####Output:
 Greedy algorithm output format:
 - next state
 
 Example:
-********
-********
-***X****
-***XX***
-***XO***
-********
-********
-********
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*X\*\*\*\*
+\*\*\*XX\*\*\*
+\*\*\*XO\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
 
 Minimax algorithm output format:
 - next state
 - traverse log
 
 Example:
-********
-********
-***X****
-***XX***
-***XO***
-********
-********
-********
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*X\*\*\*\*
+\*\*\*XX\*\*\*
+\*\*\*XO\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
 Node,Depth,Value
 root,0,-Infinity
 d3,1,Infinity
@@ -74,14 +74,14 @@ The program should output the Alpha-Beta algorithm in the format:
 - traverse log
 
 Example:
-********
-********
-***X****
-***XX***
-***XO***
-********
-********
-********
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*X\*\*\*\*
+\*\*\*XX\*\*\*
+\*\*\*XO\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*
 Node,Depth,Value,Alpha,Beta
 root,0,-Infinity,-Infinity,Infinity
 d3,1,Infinity,-Infinity,Infinity
