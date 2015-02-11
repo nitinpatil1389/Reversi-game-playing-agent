@@ -1,18 +1,18 @@
 ### Reversi-game-playing-agent
 
-####Description: Determines the next move for a player in the Reversi game using the Greedy, Minimax, and Alpha-Beta pruning algorithms with positional weight evaluation functions
-
-Constants.COST_MATRIX gives the positional weights used in the evaluation function
+####Description: 
+Determines the next move for a player in the Reversi game using the Greedy, Minimax, and Alpha-Beta pruning algorithms with positional weight evaluation functions (Constants.COST_MATRIX gives the positional weights used in the evaluation function)
 
 ####Input:
 input.txt - describes the current state of the game.
-<task#> Greedy = 1, MiniMax = 2, Alpha-beta = 3, Competition =4
-<your player: X or O>
-<cutting off depth >
-<current state as follows:>
-*: blank cell
-X: Black player
-O: White Player
+- task#: Greedy = 1, MiniMax = 2, Alpha-beta = 3
+- your player: X or O
+- cutting off depth
+- current state as follows:
+	+ *: blank cell
+	+ X: Black player
+	+ O: White Player
+
 Example:
 2
 X
@@ -28,7 +28,8 @@ X
 
 ####Output:
 Greedy algorithm output format:
-<next state>
+- next state
+
 Example:
 ********
 ********
@@ -40,8 +41,9 @@ Example:
 ********
 
 Minimax algorithm output format:
-<next state>
-<traverse log>
+- next state
+- traverse log
+
 Example:
 ********
 ********
@@ -68,8 +70,9 @@ There are two special node names: “root” and “pass”. “root” is the n
 “Value”: is the value of the node. The value is initialized to “-Infinity” for the max node (agent) and “Infinity” for the min (agent’s opponent) node. The value will be updated when its children return the value to the node. The value of leaf nodes is the evaluated value, for example, c3,2,-3.0
 
 The program should output the Alpha-Beta algorithm in the format:
-<next state>
-<traverse log>
+- next state
+- traverse log
+
 Example:
 ********
 ********
