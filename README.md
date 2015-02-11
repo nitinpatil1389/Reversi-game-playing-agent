@@ -15,16 +15,27 @@ input.txt - describes the current state of the game.
 
 Example:
 2
+
 X
+
 2
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*OX\*\*\*
+
 \*\*\*XO\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 
 ####Output:
 Greedy algorithm output format:
@@ -32,13 +43,21 @@ Greedy algorithm output format:
 
 Example:
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*X\*\*\*\*
+
 \*\*\*XX\*\*\*
+
 \*\*\*XO\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 
 Minimax algorithm output format:
 - next state
@@ -46,13 +65,21 @@ Minimax algorithm output format:
 
 Example:
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*X\*\*\*\*
+
 \*\*\*XX\*\*\*
+
 \*\*\*XO\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 \*\*\*\*\*\*\*\*
+
 Node,Depth,Value
 root,0,-Infinity
 d3,1,Infinity
